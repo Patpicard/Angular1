@@ -1,59 +1,71 @@
-# ProyectoClase1
+### ──── Datos personales y de curso ────
+Patricio Peralta, Curso de Desarrollo con Angular, Unidad 1.
+### ──── Datos de la generación del proyecto y uso ────
+ProyectoClase1
+Este proyecto fue generado mediante la herramienta Angular CLI versión 21.2.11.
+Servidor de desarrollo
+Para iniciar un servidor de desarrollo local, ejecutá el siguiente comando:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
-
-## Development server
-
-To start a local development server, run:
-
-```bash
+bash
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Una vez que el servidor esté en funcionamiento, abrí tu navegador y entrá a la dirección http://localhost:4200/. La aplicación se recargará automáticamente cada vez que modifiques cualquiera de los archivos del código.
+Generación de código
+Angular CLI incluye herramientas muy útiles para generar las partes de tu proyecto. Para crear un nuevo componente, ejecutá:
 
-## Code scaffolding
+bash
+ng generate component nombre-del-componente
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Para ver la lista completa de elementos que podés generar (como componentes, directivas o tuberías), usá:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
+bash
 ng generate --help
-```
 
-## Building
+Generar la versión para producción
+Para preparar y compilar el proyecto, ejecutá:
 
-To build the project run:
-
-```bash
+bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Esto compilará tu proyecto y guardará los archivos finales en la carpeta dist/. Por defecto, esta versión de producción viene optimizada para funcionar lo más rápido y eficientemente posible.
+Ejecutar pruebas unitarias
+Para realizar pruebas unitarias con el entorno de pruebas Vitest, usá el comando:
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
+bash
 ng test
-```
 
-## Running end-to-end tests
+Ejecutar pruebas de extremo a extremo
+Para realizar pruebas que revisen el funcionamiento completo de la aplicación de principio a fin, ejecutá:
 
-For end-to-end (e2e) testing, run:
-
-```bash
+bash
 ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+Para clonar el proyecto desde Github, ubicate en la carpeta y ejecutá:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/Patpicard/Angular1.git
+
+---
+
+src/app: Todo el código de  aplicación, componentes, servicios, módulos.
+
+app.component.ts: Componente principal
+app.module.ts: Módulo raíz, define qué usa la app.
+assets/: Archivos estáticos: imágenes, fuentes, estilos.
+environments/: Configuraciones distintas para desarrollo y/o test y producción.
+Esta última ya no se crea automáticamente hay q tirar el comando ng generate environments
+---
+la variable es protected  variable: string = "->Esta es la variable<---";
+---
+La imagen de remplazo al al de angular, extraída de la tapa el albún de Angien de Potrine vol I
+
+La imagen del ejercicio, es propia.
+
+capturas:
+
+![Vista previa del proyecto](./public/etc/Angular%20clase%201_1.jpg)
+![Vista previa del proyecto](./public/etc/Angular%20clase%201_2.jpg)
+
+
+
+

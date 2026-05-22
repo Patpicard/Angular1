@@ -9,4 +9,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('Título cambiado');
+  protected  variable: string = "->Esta es la variable<---";
 }
