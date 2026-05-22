@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+.img-responsa {
+  width: 40%;     /* O el porcentaje que necesites para tu diseño */
+  height: auto;   /* ¡Esta es la clave! Mantiene el aspect ratio automáticamente */
+}
